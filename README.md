@@ -3,4 +3,6 @@ The repo is created for learning ros2 launch system due to the lack of detailed 
 
 Here is the brief contents
 - How to launch a node
-- What is 
+- How to change topic name in Node
+- How to transfer parameter into main function
+- How to set paramrters to a Node
