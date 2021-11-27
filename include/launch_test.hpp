@@ -13,9 +13,10 @@ class LaunchTest: public rclcpp::Node
       heart_timer_ = this->create_wall_timer(
          std::chrono::seconds(1), std::bind(&LaunchTest::heart_callback, this));
       this->declare_parameter("test_param_value");
-      this->get_parameter_or<std::string>("test_param_value", test_param_value, "");
-      if test
-      INFO(this->get_logger(), "Capture the param")
+      this->get_parameter_or<std::string>("test_param_value", test_param_value, "null");
+      if (test_param_value.compare("null") != 0) {
+        RCLCPP_INFO(this->get_logger(), "Capture the param, test_param_value: %s", test_param_value.c_str());
+      }
     }
 
     void heart_callback() {

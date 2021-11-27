@@ -11,7 +11,7 @@
 打开一个没有经过remapping的launch文件
 
 ```
-ros2 launch learning_ros2_launch_by_example single_node.launch.py
+ros2 launch learning_ros2_launch_by_example node.launch.py
 ```
 
 查看发布的topic名字

@@ -5,7 +5,7 @@
 # 使用效果
 
 ```
-ros2 launch learning_ros2_launch_by_example single_node_arguments.launch.py
+ros2 launch learning_ros2_launch_by_example node_arguments.launch.py
 ```
 
 可以看见
@@ -26,7 +26,7 @@ ros2 launch learning_ros2_launch_by_example single_node_arguments.launch.py
 
 # 使用实例
 
-```c++
+```python
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
