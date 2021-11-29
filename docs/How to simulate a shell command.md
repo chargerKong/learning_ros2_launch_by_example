@@ -14,6 +14,14 @@ ros2 run learning_ros2_launch_by_example learning_ros2_launch_by_example_node
 cmd=["ros2", "run", "learning_ros2_launch_by_example",  "learning_ros2_launch_by_example_node"],
 ```
 
+**当然，这不仅限于ROS2的指令，任何操作系统的指令都可以尝试去运行，比如执行一个python脚本**
+
+```
+cmd=['python3', 'path/to/your_script.py']
+```
+
+
+
 # 使用实例
 
 以下注释的内容，即Node启动方式和ExecuteProcess启动的方式效果是一样的，启动被注释的Node就是在终端输入以下命令
