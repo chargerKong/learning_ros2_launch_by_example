@@ -46,7 +46,7 @@ ros2 launch learning_ros2_launch_by_example single_node_remapping.launch.py
 
 # 使用示例
 
-```c++
+```python
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
