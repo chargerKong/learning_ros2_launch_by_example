@@ -1,38 +1,39 @@
 # learning-ros2-launch-by-example
-The repo is created for learning ros2 launch system due to the lack of detailed description of how to write the launch file.
 
-All of the examples could be run in foxy or galactic
+在本人学习ROS2的时候，发现launch文件的详细教程十分少，因此把一些简单的例子做了一些整理
 
+这里所有的例子都可以在foxy或者在galactic下运行
+
+## 安装
 ## Install 
 
-Clone  the repo to your ROS2 workspace which is under src file folder
+clone此仓库到你的ROS2工作目录的src文件夹下
 
 ```
 git clone https://github.com/chargerKong/learning_ros2_launch_by_example
 ```
-
-And then build it
+然后编译
 
 ```
 colcon build --packages-select learning_ros2_launch_by_example
 source install/local_setup.bash
 ```
 
+## 文档
 ## Docs 
+目录
 
-Here is the brief contents
-
-- [How to launch a node](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/launch/single_node.launch.py)
-- [How to change topic name in Node](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20use%20remapping%20in%20Node.md)
-- [How to transfer argument into main function](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20use%20argument%20in%20Node.md)
-- [How to set parameters to a Node](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20use%20parameters%20in%20Node.md)
-- [How to change parameters from command line](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20change%20parameters%20from%20command%20line.md)
-- [What arguments should I set in command line](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/What%20arguements%20should%20I%20set%20in%20command%20line.md)
-- [How to conditionally start a node](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20conditionally%20start%20a%20node.md)
-- [How to get context from LaunchConfiguration instance](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20get%20context%20from%20LaunchConfiguration%20instance.md)
-- [How to include another launch file](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20inlucde%20another%20launch%20file.md)
-- [How to simulate shell command in launch file](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20simulate%20a%20shell%20command.md)
-- [What is action？](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/What%20is%20action.md)
-- [How to execute an action after a period of time](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20execute%20an%20action%20after%20a%20period%20of%20time%20.md) 
-- [How to define group action](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20define%20group%20action.md)
+- [如何启动一个节点](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/launch/single_node.launch.py)
+- [如何通过Node改变topic的名字](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20use%20remapping%20in%20Node.md)
+- [Node中argument有什么用？如何通过argument给main函数传递参数](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20use%20argument%20in%20Node.md)
+- [如何通过Node设置parameter参数](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20use%20parameters%20in%20Node.md)
+- [如何通过命令行修改parameter参数](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20change%20parameters%20from%20command%20line.md)
+- [我应该在命令行中设置哪些参数](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/What%20arguements%20should%20I%20set%20in%20command%20line.md)
+- [如何对节点添加启动条件](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20conditionally%20start%20a%20node.md)
+- [如何从LaunchConfiguration中获得数据](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20get%20context%20from%20LaunchConfiguration%20instance.md)
+- [如何引入其他launch文件](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20inlucde%20another%20launch%20file.md)
+- [如何模拟终端的命令](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20simulate%20a%20shell%20command.md)
+- [什么是action？](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/What%20is%20action.md)
+- [如何在一段时间之后再执行一个节点](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20execute%20an%20action%20after%20a%20period%20of%20time%20.md) 
+- [如何定义group action](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20define%20group%20action.md)
 
