@@ -1,7 +1,7 @@
 # learning-ros2-launch-by-example
 The repo is created for learning ros2 launch system due to the lack of detailed description of how to write the launch file.
 
-All of the examples could be run in foxy or galactic
+All of the examples could be run galactic
 
 ## Install 
 
@@ -35,4 +35,4 @@ Here is the brief contents
 - [What is action？](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/What%20is%20action.md)
 - [How to execute an action after a period of time](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20execute%20an%20action%20after%20a%20period%20of%20time%20.md) 
 - [How to define group action](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20define%20group%20action.md)
-
+- [How to set envirnment](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20set%20envirnment.md)

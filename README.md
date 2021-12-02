@@ -2,7 +2,7 @@
 
 在本人学习ROS2的时候，发现launch文件的详细教程十分少，因此把一些简单的例子做了一些整理
 
-这里所有的例子都可以在foxy或者在galactic下运行
+所有的例子尽量都在galactic下运行
 
 ## 安装
 ## Install 
@@ -36,4 +36,4 @@ source install/local_setup.bash
 - [什么是action？](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/What%20is%20action.md)
 - [如何在一段时间之后再执行一个节点](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20execute%20an%20action%20after%20a%20period%20of%20time%20.md) 
 - [如何定义group action](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20define%20group%20action.md)
-
+- [如何设定环境变量](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20set%20envirnment.md)
