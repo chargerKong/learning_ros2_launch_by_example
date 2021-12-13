@@ -37,3 +37,4 @@ source install/local_setup.bash
 - [如何在一段时间之后再执行一个节点](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20execute%20an%20action%20after%20a%20period%20of%20time%20.md) 
 - [如何定义group action](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20define%20group%20action.md)
 - [如何设定环境变量](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20set%20envirnment.md)
+- [什么是生命周期节点]
