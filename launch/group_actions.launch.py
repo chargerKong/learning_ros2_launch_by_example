@@ -3,6 +3,7 @@ from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 from launch.actions import GroupAction, ExecuteProcess
 from launch.conditions import IfCondition
+from launch_ros.actions import PushRosNamespace
 
 
 def generate_launch_description():
@@ -17,7 +18,11 @@ def generate_launch_description():
     use_xxx_group = LaunchConfiguration("use_xxx_group", default="true")
     
     xxx_group = GroupAction(
-            actions=[action_1, action_2],
+            actions=[
+                PushRosNamespace("AnyName"),
+                action_1,
+                action_2,
+                ],
             condition=IfCondition(use_xxx_group),
             launch_configurations={}
         )
