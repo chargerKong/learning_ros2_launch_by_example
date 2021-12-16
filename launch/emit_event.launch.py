@@ -39,8 +39,8 @@ def generate_launch_description():
 
     ld = LaunchDescription()
     ld.add_entity(configure_talker)
-    ld.add_entity(launch.actions.TimerAction(period=2.0, actions=[activate_talker]))
-    ld.add_entity(launch.actions.TimerAction(period=5.0, actions=[shutdown_talker]))
+    ld.add_entity(launch.actions.TimerAction(period=5.0, actions=[activate_talker]))
+    ld.add_entity(launch.actions.TimerAction(period=10.0, actions=[shutdown_talker]))
     ld.add_entity(talker)  
 
     return ld

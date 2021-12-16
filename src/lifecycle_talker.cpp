@@ -130,6 +130,7 @@ public:
     // In case of TRANSITION_CALLBACK_ERROR or any thrown exception within
     // this callback, the state machine transitions to state "errorprocessing".
     return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
+    // return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::FAILURE;
   }
 
   /// Transition callback for state activating
