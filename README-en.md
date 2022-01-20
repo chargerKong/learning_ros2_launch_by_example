@@ -1,7 +1,7 @@
 # learning-ros2-launch-by-example
 The repo is created for learning ros2 launch system due to the lack of detailed description of how to write the launch file.
 
-All of the examples could be run galactic
+All of the examples could be run in foxy
 
 ## Install 
 
