@@ -37,7 +37,7 @@ source install/local_setup.bash
 - [如何在一段时间之后再执行一个节点](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20execute%20an%20action%20after%20a%20period%20of%20time%20.md) 
 - [如何定义group action](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20define%20group%20action.md)
 - [如何添加namespace](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20specify%20a%20namespace%20to%20node%20and%20gourp.md)
-- [如何设定环境变量](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20set%20envirnment.md)
+- [如何设定环境变量](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/how%20to%20set%20envirnment.md)
 - [什么是生命周期节点](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/lifecycleNode.md)
 - [如何触发一个事件](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20emit%20an%20action.md)
 - [如何处理注册事件回调](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How_to_use_register_event_handler.md)
