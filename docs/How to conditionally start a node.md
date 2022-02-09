@@ -4,25 +4,9 @@ IfCondition 接受一个值为bool类型的变量。在构建一个节点的时�
 
 
 
-# IFCondition 使用效果
-
-```
-ros2 launch learning_ros2_launch_by_example node_ifcondition.launch.py 
-```
-
-节点正常启动，可以看见会持续输出发布的消息.
 
 
-
-关闭，再一次启动，并添加变量，禁止此节点启动
-
-```shell
-ros2 launch learning_ros2_launch_by_example node_ifcondition.launch.py run_example_node:=false
-```
-
-可以看见，launch文件不会在启动节点
-
-# 如何实现
+# 使用示例
 
 ```python
 from launch import LaunchDescription
@@ -47,3 +31,22 @@ def generate_launch_description():
 
 > 注意：应该添加DeclareLaunchArgument在LaunchDescription中，要让使用的人，明白变量名，以及他的含义是什么。但是为了文档的简洁性起见，这里没有加
 
+
+
+# IFCondition 使用效果
+
+```
+ros2 launch learning_ros2_launch_by_example node_ifcondition.launch.py 
+```
+
+节点正常启动，可以看见会持续输出发布的消息.
+
+
+
+关闭，再一次启动，并添加变量，禁止此节点启动
+
+```shell
+ros2 launch learning_ros2_launch_by_example node_ifcondition.launch.py run_example_node:=false
+```
+
+可以看见，launch文件不会在启动节点

@@ -6,26 +6,6 @@
 
 
 
-# parameters 效果
-
-通过launch文件中的Node，把Node的parameter传入给相应的节点
-
-```
-ros2 launch learning_ros2_launch_by_example node_paramters.launch.py 
-```
-
-在
-
-```
-[learning_ros2_launch_by_example_node-1] [INFO] [1637980712.930372230] [parameter_test]: Publishing Topic name: 0 
-```
-
-之前，打印了从参数服务器接受到的值
-
-```
-[learning_ros2_launch_by_example_node-1] [INFO] [1637980711.930034327] [parameter_test]: Capture the param, test_param_value: A_param_value
-```
-
 # 使用示例
 
 ```python
@@ -51,9 +31,31 @@ def generate_launch_description():
 
 ```c++
 	  this->declare_parameter<std::string>("test_param_value");
-      this->get_parameter_or<std::string>("test_param_value", test_param_value, "");
-      if (test_param_value.compare("") != 0) {
+      this->get_parameter_or<std::string>("test_param_value", test_param_value, "null");
+      if (test_param_value != "null") {
         RCLCPP_INFO(this->get_logger(), "Capture the param, test_param_value: %s", test_param_value.c_str());
       }
+```
+
+
+
+# parameters 效果
+
+通过launch文件中的Node，把Node的parameter传入给相应的节点
+
+```
+ros2 launch learning_ros2_launch_by_example node_paramters.launch.py 
+```
+
+在
+
+```
+[learning_ros2_launch_by_example_node-1] [INFO] [1637980712.930372230] [parameter_test]: Publishing Topic name: 0 
+```
+
+之前，打印了从参数服务器接受到的值
+
+```
+[learning_ros2_launch_by_example_node-1] [INFO] [1637980711.930034327] [parameter_test]: Capture the param, test_param_value: A_param_value
 ```
 

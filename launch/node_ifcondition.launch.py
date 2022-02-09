@@ -4,7 +4,7 @@ from launch.substitutions import LaunchConfiguration
 from launch.conditions import IfCondition
 
 def generate_launch_description():
-    run_example_node = LaunchConfiguration("run_example_node", default="true")
+    run_example_node = LaunchConfiguration("run_example_node", default="True")
     return LaunchDescription([
         Node(
             package='learning_ros2_launch_by_example',
