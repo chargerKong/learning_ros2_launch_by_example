@@ -36,3 +36,6 @@ Here is the brief contents
 - [How to execute an action after a period of time](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20execute%20an%20action%20after%20a%20period%20of%20time%20.md) 
 - [How to define group action](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20define%20group%20action.md)
 - [How to set envirnment](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20set%20envirnment.md)
+- [What is lifecycle node](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/lifecycleNode.md)
+- [How to emit an action](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20emit%20an%20action.md)
+- [How_to_use_register_event_handler](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How_to_use_register_event_handler.md)
