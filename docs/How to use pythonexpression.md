@@ -16,7 +16,7 @@ num是LaunchConfiguration的一个对象，父类是一个substitutions，无法
 
 ```python
 num = LaunchConfiguration("num", default="1")
-if (PythonExpression([var1, "== 1"]))：
+if (PythonExpression([num, "== 1"]))：
 	do_something()
 ```
 
