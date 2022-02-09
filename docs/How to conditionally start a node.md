@@ -27,7 +27,7 @@ def generate_launch_description():
     ])
 ```
 
-在Node中添加了condition的条件，为run_example_node，注意他的值为布尔型变量，可以为true, false, 1, 0 中的任何一个，否则报错
+在Node中添加了condition的条件，为run_example_node，注意他的LaunchConfiguration值为布尔型变量，可以为true, false, 1, 0 中的任何一个，否则报错
 
 > 注意：应该添加DeclareLaunchArgument在LaunchDescription中，要让使用的人，明白变量名，以及他的含义是什么。但是为了文档的简洁性起见，这里没有加
 
