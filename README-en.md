@@ -23,6 +23,7 @@ source install/local_setup.bash
 Here is the brief contents
 
 - [How to launch a node](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/launch/single_node.launch.py)
+- [three ways to execute launch file](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/three_ways_launch.md)
 - [How to change topic name in Node](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20use%20remapping%20in%20Node.md)
 - [How to transfer argument into main function](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20use%20argument%20in%20Node.md)
 - [How to set parameters to a Node](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20use%20parameters%20in%20Node.md)
