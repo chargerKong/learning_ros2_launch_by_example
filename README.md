@@ -1,5 +1,7 @@
 # learning-ros2-launch-by-example
 
+[English](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/README-en.md)
+
 在本人学习ROS2的时候，发现launch文件的详细教程十分少，因此把一些简单的例子做了一些整理
 
 所有的例子尽量都在foxy下运行
