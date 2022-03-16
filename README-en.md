@@ -27,6 +27,7 @@ Here is the brief contents
 - [How to change topic name in Node](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20use%20remapping%20in%20Node.md)
 - [How to transfer argument into main function](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20use%20argument%20in%20Node.md)
 - [How to set parameters to a Node](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20use%20parameters%20in%20Node.md)
+- [How to load yaml file](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20load%20yaml%20config.md)
 - [How to change parameters from command line](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20change%20parameters%20from%20command%20line.md)
 - [What arguments should I set in command line](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/What%20arguements%20should%20I%20set%20in%20command%20line.md)
 - [How to conditionally start a node](https://github.com/chargerKong/learning_ros2_launch_by_example/blob/main/docs/How%20to%20conditionally%20start%20a%20node.md)

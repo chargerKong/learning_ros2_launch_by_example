@@ -49,7 +49,7 @@ install(TARGETS lifecycle_service_client_node
 install(TARGETS lifecycle_talker_node
   DESTINATION lib/${PROJECT_NAME})
 
-install(DIRECTORY launch
+install(DIRECTORY launch config
   DESTINATION share/${PROJECT_NAME}
 )
 
