@@ -7,7 +7,7 @@ def generate_launch_description():
         Node(
             package='learning_ros2_launch_by_example',
             executable='learning_ros2_launch_by_example_node',
-            name='learning_ros2_launch_by_example_node',
+            name='example1',
             output="screen",
         ),
     ])
