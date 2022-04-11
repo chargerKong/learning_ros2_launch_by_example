@@ -12,7 +12,7 @@ def generate_launch_description():
             default_value=test_var,
             description="This is the test variable to be sent into node parameter"
         ),
-
+        
         Node(
             package='learning_ros2_launch_by_example',
             executable='learning_ros2_launch_by_example_node',

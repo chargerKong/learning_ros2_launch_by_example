@@ -5,8 +5,8 @@
 int main(int argc, char * argv[])
 {
   RCLCPP_INFO(rclcpp::get_logger("For arguements"), 
-  "The number of arguments is %d， They are", argc);
-  for (int i = 1; i < argc; ++i)
+      "The number of arguments is %d， They are", argc);
+  for (int i = 0; i < argc; ++i)
   {
     RCLCPP_INFO(rclcpp::get_logger("For arguements"), argv[i]);
   }
